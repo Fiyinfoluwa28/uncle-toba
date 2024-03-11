@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.right-nav{
+    margin-left: 500px;
+}
+
+.default-name{
+    margin-left: 50px;
+}
+
+.fixed-navbar{
+    position: fixed;
+    /* right: 0; */
+    width: 100%;
+    z-index: 10;
+}
