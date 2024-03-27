@@ -71,6 +71,9 @@
     z-index: 10;
 }
 
+.navbar-move-left ul li{
+    margin-right: 20px;
+}
 /* -----------------------trusted-------------------- */
 
 #trusted{
@@ -801,7 +804,7 @@
     box-sizing: border-box;
 }
 #footer .container{
-    margin-left: 100px;
+    margin-left: 10px;
 }
 .row-footer{
     display: flex;

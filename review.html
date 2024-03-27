@@ -5,91 +5,390 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="review.css">
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <div class="container-left">
-                <h1>Read what past clients we've work with recently, love about us</h1>
-                <p>Over 1780+ companies frim diverse sectors consult us to enhance the
-                    user experience of their products and services.
-                </p>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand default-name" href="#">Default name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-move-left" id="navbarNavDropdown">
+                <ul class="navbar-nav right-nav">
+                    <li class="nav-item left-side">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item left-side">
+                        <a class="nav-link active" aria-current="page" href="unavailable.html">Resume Service</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="unavailable.html">Samples</a></li>
+                            <li><a class="dropdown-item" href="unavailable.html">Testimonials</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item left-side">
+                        <a class="nav-link" href="price-section.html">Pricing</a>
+                    </li>
+                    <li class="nav-item left-side">
+                        <a class="nav-link" href="career.html">Career Advice</a>
+                    </li>
 
-                <p>
-                    We have helped customers increase their chances of landing the right
-                    job and increase their qualifications
-                </p>
-
-                <a href="unavailable.html"><button>Read more of our success stories</button></a>
+                    
+                </ul>
             </div>
-            <div class="container-right">
-                <div class="card">
-                    <img src="../uncle-toba/image/Case19.jpg" alt="user">
-                    <div class="card-content">
-                        <img src="../uncle-toba/image/quote.png" alt="" id="quote">
-                        <div class="card-details">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                Dolor atque natus temporibus maxime nisi, ex quis unde magni dolorum aut?
-                            </p>
-                            <h4>- Zach_Wesley</h4>
-                            <h5>2 weeks ago</h5>
+        </div>
+    </nav>
+    
+    <!--------------------------------------- header-part-section ---------------------------------->
+
+    <div class="header-part-section">
+
+
+        <div class="first-half">
+            
+            <div class="first-half-left">
+                <p class="fs-1 front-section-text">It’s all about you.</p>
+
+                <p class="lh-base small-section-text">Helping individuals reach their career goals is what gets our team out of bed in the morning. Your resume is your story, and we love a good ending.</p>
+            </div>
+
+            <div class="first-half-right">
+                <img src="image/Celebrating_laptop_Yay.webp" class="img-fluid new-image" alt="...">
+            </div>
+        </div>
+</div>
+    
+    <!--------------------------------------- main-section-first ---------------------------------->
+
+    <div class="main-section-first">
+
+<br><br><br>
+        <p class="fs-3 main-stage-text">Real professionals. Real Resumes. Real reviews.</p>
+
+        <div class="section-display-box-text">
+            <div class="review-comment-section">
+
+                <div class="alignment-sectioning">
+                    <div class="review-profile-first">
+                        <img src="image/Case19.jpg" alt="">
+                        
+                        <div class="profile-ID">
+                            <h5 class="card-title">Dean H.</h5>
+
+                            <p class="card-text"><small class="text-body-secondary small-profile-text">Sales, 12 years of experience</small></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="card">
-                    <img src="../uncle-toba/image/Case6.jpg" alt="user">
-                    <div class="card-content">
-                        <img src="../uncle-toba/image/quote.png" alt="" id="quote">
-                        <div class="card-details">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                Dolor atque natus temporibus maxime nisi, ex quis unde magni dolorum aut?
-                            </p>
-                            <h4>- Marnus Stephen</h4>
-                            <h5>1 month ago</h5>
+                    <div class="the-comment-gangan">
+                        <div class="card-body alignment-sectioning-main-text">
+
+
+                            <p class="start-comment-text">"This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API."</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    
                         </div>
                     </div>
-                </div>
 
-                <div class="card">
-                    <img src="../uncle-toba/image/Case10.jpg" alt="user">
-                    <div class="card-content">
-                        <img src="../uncle-toba/image/quote.png" alt="" id="quote">
-                        <div class="card-details">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                Dolor atque natus temporibus maxime nisi, ex quis unde magni dolorum aut?
-                            </p>
-                            <h4>- Dintre Smith</h4>
-                            <h5>a week ago</h5>
+                </div>
+            </div>
+
+
+            <div class="review-comment-section">
+
+                <div class="alignment-sectioning">
+                    <div class="review-profile-first">
+                        <img src="image/Case19.jpg" alt="">
+                        
+                        <div class="profile-ID">
+                            <h5 class="card-title">Dean H.</h5>
+
+                            <p class="card-text"><small class="text-body-secondary small-profile-text">Sales, 12 years of experience</small></p>
                         </div>
+                    </div>
+
+                    <div class="the-comment-gangan">
+                        <div class="card-body alignment-sectioning-main-text">
+
+
+                            <p class="start-comment-text">"This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API."</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 35 mins ago</small></p>
+                    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="review-comment-section">
+
+                <div class="alignment-sectioning">
+                    <div class="review-profile-first">
+                        <img src="image/Case19.jpg" alt="">
+                        
+                        <div class="profile-ID">
+                            <h5 class="card-title">Dean H.</h5>
+
+                            <p class="card-text"><small class="text-body-secondary small-profile-text">Sales, 12 years of experience</small></p>
+                        </div>
+                    </div>
+
+                    <div class="the-comment-gangan">
+                        <div class="card-body alignment-sectioning-main-text">
+
+
+                            <p class="start-comment-text">"This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API."</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 2 hours ago</small></p>
+                    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------------------------------------- second-section-segment ---------------------------------->
+
+    <div class="second-section-blue">
+
+        <div class="covering-all-card">
+
+            <br><br><br><br>
+            <div class="customer-review-card">
+
+                <div class="review-first-card">
+
+                    <div class="card-distance">
+                        <a href="#" class="card-link heading-card-link">Executive Priority Resume Writing Package</a>
+
+                        <br><br><br>
+
+                        <p class="card-text the-itself">“I retained [-------------] resume writing services ... and was completely satisfied with the writing services as well as the follow up of everyone involved. I highly recommend their services in order to market yourself in a much more effective and professional manner.”</p>
+                       
+
+                        <h5 class="card-title text-name">Kelly L. (Senatobia, MS)</h5>
+                        <h6 class="card-subtitle mb-2 text-color">Sales, 22 years of experience</h6>
+
+                        <a href="#" class="card-link learn-link">Learn more</a>
+                    </div>
+                </div>
+        
+                <div class="review-second-card">
+
+                    <div class="card-distance">
+                        <a href="#" class="card-link heading-card-link">Career Evolution Resume Writing Package</a>                            
+                      
+                        <br><br><br>
+
+                        <p class="card-text the-itself">“[-------------] is one of the most efficient resume writing services I’ve come across. The entire process is handled in a very professional way and I have no reservations to recommend this company to anyone.”</p>
+
+                        <br>
+                        
+                        <h5 class="card-title text-name">Kapil J. (Singapore, NSW)</h5>
+                        <h6 class="card-subtitle mb-2 text-color">Information Technology Professional, 14 years of experience</h6> 
+
+                        <a href="#" class="card-link learn-link">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="customer-review-card">
+                <div class="review-first-card">
+                    <div class="card-distance">
+                        <a href="#" class="card-link heading-card-link">Executive Priority Resume Writing Package</a>
+
+                        <br><br><br>
+
+                        <p class="card-text the-itself">“I was skeptical when looking for a resume-writing service. [-------------] was quick to respond and had great communication throughout the process. My resume writer listened to feedback and did an amazing job making the resume look professional. I am no longer a skeptic! [-------------] is the place to go.”</p>
+
+                        <h5 class="card-title text-name">James M. (Cincinnati, OH)</h5>
+                        <h6 class="card-subtitle mb-2 text-color">Finance Professional, 26 years of experience</h6>
+
+                        <a href="#" class="card-link learn-link">Learn more</a>
+                    </div>
+                </div>
+        
+                <div class="review-second-card">
+                    <div class="card-distance">
+                        <a href="#" class="card-link heading-card-link">Executive Priority Resume Writing Package</a>
+
+                        <br><br><br>
+
+                        <p class="card-text the-itself">“I am so thankful to have come across [-------------]. Frank with [-------------] is excellent and was able to go in and create the perfect resume that outlines my skill-set and experience in a way that I would not have come up with myself.”</p>
+                        
+                        <h5 class="card-title text-name">Valerie M. (Washington, DC)</h5>
+                        <h6 class="card-subtitle mb-2 text-color">Sales Professional, 9 years of experience</h6>
+
+                        <a href="#" class="card-link learn-link">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="customer-review-card">
+                <div class="review-first-card">
+                    <div class="card-distance">
+                        <a href="#" class="card-link heading-card-link">Career Evolution Resume Writing Package</a>
+
+                        <br><br><br>
+
+                        <p class="card-text the-itself">“I am so thankful to have come across [-------------]. Frank with [-------------] is excellent and was able to go in and create the perfect resume that outlines my skill-set and experience in a way that I would not have come up with myself.”</p>
+
+                        <h5 class="card-title text-name">Ron N. (Emmitsburg, MD)</h5>
+                        <h6 class="card-subtitle mb-2 text-color">Sales Professional, 9 years of experience</h6>
+
+                        <a href="#" class="card-link learn-link">Learn more</a>
+                    </div>
+                </div>
+        
+                <div class="review-second-card">
+                    <div class="card-distance">
+                        <a href="#" class="card-link heading-card-link">Learn about the Professional Growth package</a>
+
+                        <br><br><br>
+
+                        <p class="card-text the-itself">“One of the best resume services out there and at an affordable price.”</p>
+
+                        <br><br><br>
+
+                        <h5 class="card-title text-name">Mokube E. (College Park, MD)</h5>
+                        <h6 class="card-subtitle mb-2 text-color">CLINICAL PROFESSIONAL, 7 years of experience</h6>
+
+                        <a href="#" class="card-link learn-link">Learn more</a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+        
+        <button type="button" class="btn btn-outline-light show-more-button">Show more reviews</button>
+    </div>
 
+    <!--------------------------------------- third-section-segment ---------------------------------->
 
-    <div id="trusted"><br><br>
-        <h3>Trusted by professionals at</h3>
-        <div class="image-container">
-            <div class="image-container1">
-                <img src="../uncle-toba/image/social.png" alt="Image1">
-                <img src="../uncle-toba/image/canon.png" alt="Image2">
-                <img src="../uncle-toba/image/ibm.png" alt="Image3">
-                <img src="../uncle-toba/image/cisco.png" alt="Image1">
-                <img src="../uncle-toba/image/walmart.png" alt="Image2">
-                <img src="../uncle-toba/image/fedex.png" alt="Image3">
+    <div class="third-section-segment">
+        <div class="first-layer-third">
+            <div class="first-item">
+                <h1>65 <br> industries</h1>
+                <h4>range of writer expertise.</h4>
+            </div>
+
+            <div class="second-item">
+                <h1>1,500+ <br> writers</h1>
+                <h4>all over the country.</h4>
+            </div>
+
+            <div class="third-item">
+                <h1>Over one  <br> million</h1>
+                <h4>careers changed.</h4>
             </div>
         </div>
+    </div>
+
+<!-- ----------------------------------footer------------------------------------------- -->
+    
+<div id="footer">
+    <div class="container">
+
+        <div class="row-footer">
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="unavailable.html">Professional Resume Writing</a></li>
+                    <li><a href="unavailable.html">Federal Resume Writing</a></li>
+                    <li><a href="unavailable.html">Military Transition Resume</a></li>
+                    <li><a href="unavailable.html">Academic/Entry-level CV</a></li>
+                    <li><a href="unavailable.html">Executive Resume Writing</a></li>
+                    <li><a href="unavailable.html">LinkedIn Profile Optimization</a></li>
+                    <li><a href="unavailable.html">Career consultation</a></li>
+                    <li><a href="unavailable.html">Top Interview Expert Coaching</a></li>
+                    <li><a href="unavailable.html">Free Resume Critique</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-col">
+                <h4>learn more</h4>
+                    <ul>
+                        <li><a href="unavailable.html">Frequently Asked Questions</a></li>
+                        <li><a href="unavailable.html">Customer Success Stories</a></li>
+                        <li><a href="unavailable.html">Resume Samples</a></li>
+                    </ul>
+            </div>
+    
+            <div class="footer-col">
+                <h4>partner with us</h4>
+                    <ul>
+                        <li><a href="unavailable.html">Partnership Program</a></li>
+                        <li><a href="unavailable.html">Affiliate Program</a></li>
+                        <li><a href="unavailable.html">Gift Card</a></li>
+                        <li><a href="unavailable.html">Sponsorship</a></li>
+                    </ul>
+            </div>
+    
+            <div class="footer-col">
+                <h4>company</h4>
+                    <ul>
+                        <li><a href="unavailable.html">About</a></li>
+                        <li><a href="unavailable.html">Contact Us</a></li>
+                        <li><a href="unavailable.html">Press Room</a></li>
+                        <li><a href="unavailable.html">Partnerships</a></li>
+                        <li><a href="unavailable.html">Outplacement</a></li>
+                    </ul>
+            </div>
+        </div>
+
+<br><br>
+
+        <div class="footer-text">
+            <img src="image/Trustpilot Logo.png">
+        </div>
+        
+        <div class="camera-row">
+            <div class="camera">
+                <a href="#"><img src="image/facebookfoot.png"></a>
+                <a href="#"><img src="image/twitterfoot.png"></a>
+                <a href="#"><img src="image/instagram.png"></a>
+                <a href="#"><img src="image/linkedinfoot.png"></a>
+            </div>
+
+
+            <h3>"Unlock your potential with our expert resume services.<br>
+                 Take the next step towards your dream career today!"
+            </h3>
+        </div>
+    </div>
+
+    <hr id="footer-hr">
+    <div class="footer-end">
+        <ul>
+            <li><a href="unavailable.html">Terms</a></li>
+            <li><a href="unavailable.html">Privacy-Policy</a></li>
+            <li><a href="unavailable.html">Cookie</a></li>
+            <li><a href="unavailable.html">Do not sell</a></li>
+        </ul>
+
+        <h6 id="end-text">
+            <img src="  image/copyright.png" id="location"> 2023 TopResume. All Rights Reserved. 
+            100% of our writers are based in the United-states & Canada
+        </h6>
+
     </div>
 </body>
 </html>

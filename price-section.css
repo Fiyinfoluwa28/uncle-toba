@@ -32,6 +32,20 @@ img{
     margin-top: 20px;
 }
 
+.right-nav{
+    margin-left: 500px;
+}
+
+.default-name{
+    margin-left: 50px;
+}
+
+.fixed-navbar{
+    position: fixed;
+    /* right: 0; */
+    width: 100%;
+    z-index: 10;
+}
 
 
 #left-p{

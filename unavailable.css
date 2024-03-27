@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'EB Garamond', serif;
+    
+    font-family: "Rubik", sans-serif;
 }
 body{
     background-color: #1B2531;
@@ -32,7 +33,7 @@ a{
     color: #ffffff;
 }
 a:hover{
-    color: rgb(255, 187, 1);
+    color: #0da1ec;
     text-decoration: none;
 }
 .footer{
@@ -57,4 +58,20 @@ a:hover{
     color: white;
     width: 300px;
     margin: auto;
+}
+/* -----------------navbar-area---------------------- */
+
+.right-nav{
+    margin-left: 500px;
+}
+
+.default-name{
+    margin-left: 50px;
+}
+
+.fixed-navbar{
+    position: fixed;
+    /* right: 0; */
+    width: 100%;
+    z-index: 10;
 }
