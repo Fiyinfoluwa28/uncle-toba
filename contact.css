@@ -16,6 +16,9 @@
     margin-left: 50px;
 }
 
+.container-spacing{
+    padding: 8px;
+}
 
 .navbar-move-left ul li{
     margin-right: 20px;

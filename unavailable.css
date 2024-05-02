@@ -75,3 +75,7 @@ a:hover{
     width: 100%;
     z-index: 10;
 }
+
+.container-spacing{
+    padding: 8px;
+}
