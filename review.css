@@ -28,6 +28,17 @@
     padding: 8px;
 }
 
+.navbar-move-left ul li{
+    margin-right: 20px;
+}
+
+.navbar-move-left ul li a:hover{
+    color: #3a89ff;
+}
+
+.navbar-move-left ul li a{
+    font-size:1.1rem;
+}
 /* -----------------header-part-section---------------------- */
 
 .header-part-section{
@@ -201,7 +212,7 @@
 
 /* ----------------- third-section-blue ---------------------- */
 
-.third-section-segment{
+/* .third-section-segment{
     width: 100%;
     height: 30vh;
 }
@@ -247,7 +258,7 @@
 .third-item h4{
     text-align: center;
 
-}
+} */
 
 /* -------------------footer----------------- */
 

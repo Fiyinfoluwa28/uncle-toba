@@ -79,3 +79,11 @@ a:hover{
 .container-spacing{
     padding: 8px;
 }
+
+.navbar-move-left ul li a{
+    font-size:1.1rem;
+}
+
+.navbar-move-left ul li a:hover{
+    color: #3a89ff;
+}

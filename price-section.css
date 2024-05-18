@@ -46,13 +46,16 @@ img{
     padding: 8px;
 }
 
-.container-spacing a{
-    font-size: 1.3rem;
-}
-
 .navbar-move-left ul li{
     margin-right: 20px;
-    font-size: 1.05rem;
+}
+
+.navbar-move-left ul li a{
+    font-size:1.1rem;
+}
+
+.navbar-move-left ul li a:hover{
+    color: #3a89ff;
 }
 
 /* -----------------first-section-container---------------------- */
@@ -338,4 +341,229 @@ img{
 
 .third-section-text p{
     color: #000000;
+}
+
+.third-section-entrytext{
+    font-size: 1.2rem;
+}
+
+.third-section-row-column{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.first-column-main-part{
+    margin-right: 50px;
+}
+
+
+
+
+.first-column-part1{
+    width: 350px;
+    height: 60px;
+    background-color: #f6f7fa;
+    border-radius: 5px;
+    border: 1px solid #d3dee8;
+    margin-bottom: 20px;
+}
+
+.first-column-part1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    background-color: #3a89ff;
+}
+
+.first-column-main-part a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.first-column-part1 p{
+    color: #000000;
+}
+
+.first-column-part1 p:hover{
+    color: #FFFFFF;
+}
+
+.inner-column{
+    display: flex;
+    margin-left: 20px;
+}
+
+i:hover{
+    color: #3a89ff;
+}
+
+
+.first-column-part2{
+    width: 350px;
+    height: 60px;
+    background-color: #f6f7fa;
+    border-radius: 5px;
+    border: 1px solid #d3dee8;
+    margin-bottom: 20px;
+}
+
+.first-column-part2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    background-color: #3a89ff;
+}
+
+.first-column-part2 p{
+    color: #000000;
+}
+
+.first-column-part2 p:hover{
+    color: #FFFFFF;
+}
+
+
+
+.first-column-part3{
+    width: 350px;
+    height: 60px;
+    background-color: #f6f7fa;
+    border-radius: 5px;
+    border: 1px solid #d3dee8;
+    margin-bottom: 20px;
+}
+
+.first-column-part3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    background-color: #3a89ff;
+}
+
+.first-column-part3 p{
+    color: #000000;
+}
+
+.first-column-part3 p:hover{
+    color: #FFFFFF;
+}
+
+
+
+.first-column-part4{
+    width: 350px;
+    height: 60px;
+    background-color: #f6f7fa;
+    border: 1px solid #d3dee8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.first-column-part4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    background-color: #3a89ff;
+}
+
+.first-column-part4 p{
+    color: #000000;
+}
+
+.first-column-part4 p:hover{
+    color: #FFFFFF;
+}
+
+
+.first-column-part5{
+    width: 350px;
+    height: 60px;
+    background-color: #f6f7fa;
+    border-radius: 5px;
+    border: 1px solid #d3dee8;
+}
+
+.first-column-part5:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    background-color: #3a89ff;
+}
+
+.first-column-part5 p{
+    color: #000000;
+}
+
+.first-column-part5 p:hover{
+    color: #FFFFFF;
+}
+
+
+/* ----------------------- fourth-section-container ---------------------------- */
+
+.fourth-section-container{
+    width: 100%;
+    height: 100%;
+    background: rgb(239, 239, 239);
+
+}
+
+.outerlayer-fourth-section-container{
+    margin: 50px 0px 0px 0px;
+}
+
+.fourth-section-container p{
+    color: #202124;
+}
+
+.maximum-width{
+    max-width: 300px;
+}
+
+.main-container-fourth-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px 0px 0px;
+}
+
+.fourth-container-image-one img{
+    margin: 0px 0px 25px 125px;
+}
+
+.fourth-section-main-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+/* ---------------------- accordion-main ---------------------------- */
+
+.accordion-section{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.accordion-text{
+    color: #202124;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.blue-button:hover{
+    color: #3a89ff;
+}
+
+.accordion-item-width{
+    width: 800px;
+}
+
+.accordion-body-centered{
+    margin: 0px 0px 0px 300px;
+}
+
+.accordion-body-centered button{
+    font-size: 1.3rem;
+    font-weight: 400;
 }
